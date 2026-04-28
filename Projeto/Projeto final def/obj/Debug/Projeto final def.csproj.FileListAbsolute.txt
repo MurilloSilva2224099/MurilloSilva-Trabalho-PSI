@@ -1,0 +1,12 @@
+C:\Users\2224099\OneDrive - Escola Digital\2 ano\PSI\Projeto final def\bin\Debug\Projeto final def.exe.config
+C:\Users\2224099\OneDrive - Escola Digital\2 ano\PSI\Projeto final def\bin\Debug\Projeto final def.exe
+C:\Users\2224099\OneDrive - Escola Digital\2 ano\PSI\Projeto final def\bin\Debug\Projeto final def.pdb
+C:\Users\2224099\OneDrive - Escola Digital\2 ano\PSI\Projeto final def\obj\Debug\Projeto final def.csproj.AssemblyReference.cache
+C:\Users\2224099\OneDrive - Escola Digital\2 ano\PSI\Projeto final def\obj\Debug\Projeto_final_def.Form1.resources
+C:\Users\2224099\OneDrive - Escola Digital\2 ano\PSI\Projeto final def\obj\Debug\Projeto_final_def.Properties.Resources.resources
+C:\Users\2224099\OneDrive - Escola Digital\2 ano\PSI\Projeto final def\obj\Debug\Projeto final def.csproj.GenerateResource.cache
+C:\Users\2224099\OneDrive - Escola Digital\2 ano\PSI\Projeto final def\obj\Debug\Projeto final def.csproj.CoreCompileInputs.cache
+C:\Users\2224099\OneDrive - Escola Digital\2 ano\PSI\Projeto final def\obj\Debug\Projeto final def.exe
+C:\Users\2224099\OneDrive - Escola Digital\2 ano\PSI\Projeto final def\obj\Debug\Projeto final def.pdb
+C:\Users\2224099\OneDrive - Escola Digital\2 ano\PSI\Projeto final def\obj\Debug\Projeto final def.exe.config
+C:\Users\2224099\OneDrive - Escola Digital\2 ano\PSI\Projeto final def\obj\Debug\Projeto_final_def.Form2.resources
