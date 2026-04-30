@@ -10,3 +10,4 @@ C:\Users\2224099\OneDrive - Escola Digital\2 ano\PSI\Projeto final def\obj\Debug
 C:\Users\2224099\OneDrive - Escola Digital\2 ano\PSI\Projeto final def\obj\Debug\Projeto final def.pdb
 C:\Users\2224099\OneDrive - Escola Digital\2 ano\PSI\Projeto final def\obj\Debug\Projeto final def.exe.config
 C:\Users\2224099\OneDrive - Escola Digital\2 ano\PSI\Projeto final def\obj\Debug\Projeto_final_def.Form2.resources
+C:\Users\2224099\OneDrive - Escola Digital\2 ano\PSI\Projeto final def\obj\Debug\Projeto_final_def.Form3.resources
