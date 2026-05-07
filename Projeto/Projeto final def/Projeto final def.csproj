@@ -64,6 +64,12 @@
     <Compile Include="Form3.Designer.cs">
       <DependentUpon>Form3.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form4.Designer.cs">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -75,6 +81,9 @@
     <EmbeddedResource Include="Form3.resx">
       <DependentUpon>Form3.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Form4.resx">
+      <DependentUpon>Form4.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -83,6 +92,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -96,6 +106,78 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Mortal_Kombat_II_Teaser_Poster_2025.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\The_Devil_Wears_Prada_2_%28film_poster%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MV5BNzllNmRlN2EtMDQyOC00ODJjLTg4OWQtZDNmNGU3YzlkNjc1XkEyXkFqcGc%40._V1_QL75_UX190_CR0,0,190,281_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Hoppers_film_poster.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MV5BYjVmNmZiOTAtOWZmNi00ZTg0LWJmNWEtODlkNjI4ZDdkZDVmXkEyXkFqcGc%40._V1_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image_8d6deb57.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MV5BOWNjYWM3NWItOGE0ZS00MWRjLThiZWEtYjc4ZmNmMmU5ZTVmXkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MV5BMDA2MDVmNWItODA3My00Mzc2LThmODMtMThhYTVlMGJkYjA4XkEyXkFqcGc%40._V1_FMjpg_UX1000_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A18v5xA3gUL %281%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\A18v5xA3gUL.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MV5BNjlhMTdmODYtOGE0ZC00YzAwLWI1NDMtMTIzZDQzZGVkNDMwXkEyXkFqcGc%40._V1_.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MV5BNjlhMTdmODYtOGE0ZC00YzAwLWI1NDMtMTIzZDQzZGVkNDMwXkEyXkFqcGc%40._V1_1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\MV5BNjlhMTdmODYtOGE0ZC00YzAwLWI1NDMtMTIzZDQzZGVkNDMwXkEyXkFqcGc%40._V1_2.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\O_Mandaloriano_e_Grogu_pôster.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\G8dZ6MGX0AAk8Qu.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image-removebg-preview %2814%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChatGPT Image 5_05_2026, 10_44_10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChatGPT Image 5_05_2026, 10_44_59.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChatGPT Image 28_04_2026, 10_38_11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChatGPT Image 28_04_2026, 10_40_32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChatGPT Image 27_04_2026, 17_13_06.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChatGPT Image 5_05_2026, 10_47_58.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ChatGPT Image 28_04_2026, 10_40_37.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Captura de ecrã 2026-05-07 104329.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
