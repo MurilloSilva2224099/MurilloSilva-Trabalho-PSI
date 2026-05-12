@@ -2,11 +2,15 @@
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using static System.Windows.Forms.VisualStyles.VisualStyleElement.Button;
 
 namespace Projeto_final_def
 {
@@ -18,6 +22,30 @@ namespace Projeto_final_def
 
             label3.MouseEnter += label3_MouseEnter;
             label3.MouseLeave += label3_MouseLeave;
+        }
+        private void btnLogin_Click(object sender, EventArgs e)
+        {
+            string email = textBox1.Text;
+            string senha = textBox4.Text;
+
+            string query = "SELECT COUNT(*) FROM Utilizadores WHERE Email=@Email AND Senha=@Senha";
+
+            SqlCommand cmd = new SqlCommand(query, conexao);
+            cmd.Parameters.AddWithValue("@Email", email);
+            cmd.Parameters.AddWithValue("@Senha", senha);
+
+            conexao.Open();
+            int resultado = (int)cmd.ExecuteScalar();
+            conexao.Close();
+
+            if (resultado > 0)
+            {
+                MessageBox.Show("Login concluído com sucesso!");
+            }
+            else
+            {
+                MessageBox.Show("Email ou senha incorretos!");
+            }
         }
 
         private void label2_Click(object sender, EventArgs e)
@@ -45,7 +73,7 @@ namespace Projeto_final_def
 
         {
 
-            label3.ForeColor = Color.FromArgb(255, 128, 0); // quando o rato passa por cima
+            label3.ForeColor = Color.FromArgb(200, 162, 255); // roxo claro
 
         }
 
@@ -53,7 +81,7 @@ namespace Projeto_final_def
 
         {
 
-            label3.ForeColor = Color.Black; // quando o rato sai
+            label3.ForeColor = Color.White; // quando o rato sai
 
         }
 
