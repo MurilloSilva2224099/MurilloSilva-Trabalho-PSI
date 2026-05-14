@@ -10,7 +10,7 @@ namespace Projeto_final_def
     public partial class Form3 : Form
     {
         SqlConnection conexao = new SqlConnection(
-            @"Server=(localdb)\MSSQLLocalDB;Database=Projeto_Final_PSi;Trusted_Connection=True;"
+            @"Server=(localdb)\\MSSQLLocalDB;Database=Cinema;Trusted_Connection=True;"
         );
 
         public Form3()
